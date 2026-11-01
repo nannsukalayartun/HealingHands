@@ -422,7 +422,11 @@
 
     <!-- Footer -->
   <footer class="bg-gray-200 text-center py-4 shadow-inner">
-    <p class="text-gray-500 text-sm">© 2025 young city shapers cohort 16. All rights reserved.</p> 
+&copy; <span id="currentYear"></span> young city shapers cohort 16. All rights reserved.
+
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>  
   </footer>
 
 <!-- Script -->
